@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: userservice
+  datasource:
+    url: jdbc:postgresql://db:5432/springboot-react-boilerplate
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: admin
+    jpa:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+flyway:
+  user: postgres
+  password: admin
+  url: jdbc:postgresql://db:5432/springboot-react-boilerplate
+
+elasticsearch:
+  host: es:9200
